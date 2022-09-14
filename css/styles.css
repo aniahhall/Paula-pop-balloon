@@ -1,0 +1,52 @@
+.pop {
+  width: 45%;
+  text-align: center;
+}
+
+main {
+  align-content: center;
+}
+
+main h3 {
+  text-align: center;
+  font-family: "Spartan", sans-serif;
+}
+
+main h2 {
+  text-align: center;
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+  color: #E31E24;
+  margin-top: .5em;
+}
+
+@media (max-width: 768px) {
+  main h2 {
+    font-size: 1.3em;
+  }
+}
+
+main h1 {
+  text-align: center;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  margin-top: 1.5em;
+  font-size: 2.5em;
+}
+
+main p {
+  text-align: center;
+  color: gray;
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 2em;
+}
