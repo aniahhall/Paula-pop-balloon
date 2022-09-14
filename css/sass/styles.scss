@@ -7,8 +7,11 @@ $red: #E31E24;
 
 
 .pop{
-  width:40%;
+  width:45%;
 text-align: center;
+@media(max-width: $md){
+  width:65%;
+}
 }
 
 main{

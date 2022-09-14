@@ -1,6 +1,12 @@
 .pop {
-  width: 40%;
+  width: 45%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .pop {
+    width: 65%;
+  }
 }
 
 main {
