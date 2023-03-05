@@ -286,7 +286,9 @@ h1{
 }
 }
 form{
+  @media(min-width:$xl){
 padding-left:8em !important;
+}
 p{
   font-family: $mont;
   font-weight: 400;
