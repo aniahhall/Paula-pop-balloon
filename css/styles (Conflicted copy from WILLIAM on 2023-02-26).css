@@ -1,0 +1,193 @@
+/* line 14, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.pop {
+  width: 23%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 22, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+nav a {
+  font-family: "Montserrat", sans-serif;
+  color: #E31E24;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* line 28, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+nav a:hover {
+  color: #30474A;
+}
+
+/* line 34, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+header p {
+  background-color: #E31E24;
+  color: white;
+  text-align: center;
+  padding: 2em 4em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.8em;
+}
+
+@media (min-width: 992px) {
+  /* line 34, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+  header p {
+    padding: 2.5em 10em;
+  }
+}
+
+/* line 55, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+form input {
+  border: .1em blue solid;
+}
+
+/* line 59, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: .8em;
+  color: blue;
+}
+
+/* line 68, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.paula {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 80, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+footer {
+  text-align: center;
+}
+
+/* line 83, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+footer img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 2em;
+}
+
+/* line 91, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+footer h3 {
+  font-family: "Spartan", sans-serif;
+  font-size: 0.75rem !important;
+  color: #DEB841;
+}
+
+/* line 96, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.bg-gold {
+  background: linear-gradient(5deg, #58A4B0 77%, #ffff 60%);
+}
+
+/* line 100, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.bg-blue {
+  background: linear-gradient(5deg, #58A4B0 77%, #ffff 60%);
+}
+
+/* line 106, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.carousel img {
+  height: 20em;
+  width: 20em;
+}
+
+/* line 113, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.balloon ul {
+  list-style-type: none;
+  margin-right: 0;
+  margin-left: 0;
+  padding: .75em;
+}
+
+/* line 120, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.balloon ul li {
+  color: #705D56;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: .95em;
+}
+
+/* line 128, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.balloon h3 {
+  text-align: center;
+}
+
+/* line 132, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.inner {
+  border: 0.1em #58A4B0 solid;
+  padding: 1em;
+  border-radius: 1.5625em;
+  position: relative;
+}
+
+@media (min-width: 567px) {
+  /* line 140, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+  #occas {
+    padding-bottom: 4.8em;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 145, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+  #holi {
+    padding-bottom: 12.9em;
+  }
+}
+
+/* line 150, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.yellow {
+  position: absolute;
+  top: 17.875em;
+  left: 14.5em;
+  width: 20%;
+}
+
+/* line 156, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.red {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  /* line 164, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  /* line 167, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+/* line 172, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  /* line 181, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  /* line 186, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+/* line 192, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles (Conflicted copy from WILLIAM on 2023-02-26).scss */
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+/*# sourceMappingURL=styles (Conflicted copy from WILLIAM on 2023-02-26).css.map */
