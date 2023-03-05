@@ -1,6 +1,6 @@
 $sm: 567px;
 $md: 768px;
-$lg: 992px;
+$lg: 993px;
 $xl: 1200px;
 $spart: 'Spartan', sans-serif;
 $mont:'Montserrat', sans-serif;
@@ -137,12 +137,20 @@ h3{
  top: 17.875em;
  left: 14.5em;
  width:20%;
+ @media(min-width:$lg){
+   top: 20.875em;
+     left: 11.5em;
+ }
 }
 .red{
   position: absolute;
   top: 22.875em;
  left: 20.5em;
  width:20%;
+ @media(min-width:$lg){
+   top: 24.875em;
+    left: 16.5em;
+ }
 }
 
 
@@ -278,6 +286,7 @@ h1{
 }
 }
 form{
+padding-left:8em !important;
 p{
   font-family: $mont;
   font-weight: 400;
@@ -293,32 +302,109 @@ p{
   }
 #name{
   width:15.55em;
-  @media(min-width:390px){
+  @media(min-width:386px){
     margin-right: 3em;
   }
+
+  @media(min-width:540px){
+  width: 22.55em;
+  }
+@media(min-width:$md){
+  width: 13.55em;
+  margin-right:2em;
+}
+
 }
 
 #email{
   width:15.8em;
+  @media(min-width:540px){
+  width: 22.8em;
+  }
+
+  @media(min-width:$md){
+  width: 15.8em;
+  }
+  @media(min-width:$lg){
+    margin-right: 2em;
+    width:13.8em;
+  }
 }
 #number{
   width:10.8em;
+  @media(min-width:540px){
+  width: 17.8em;
+  margin-right: 3em;
+  }
+  @media(min-width:$md){
+    width: 8.8em;
+    margin-right: 2em
+  }
+  @media(min-width:$lg){
+    width: 7.7em;
+}
+@media(min-width:$xl){
+  margin-right:6em;
+}
+
 }
 
 #Occasion{
   width:13.3em;
+  @media(min-width:540px){
+  width: 20.3em;
+  }
+
+  @media(min-width:$md){
+  width: 13.3em
+  }
+  @media(min-width:$lg){
+    width: 11.3em;
+    margin-right:2em;
+}
+
 }
 #balloons{
   width:12em;
+  @media(min-width:540px){
+  width: 18.9em;
+  }
+  @media(min-width:$md){
+    width: 9.9em;
+        margin-right: 2em
+      }
+
+
+  @media(min-width:$lg){
+          width: 9.9em;
+  margin-right: 2em;
+        }
+
+
 }
 #date{
   width:12em;
-  @media(min-width:412px){
+  @media(min-width:398px){
     margin-right: 4em;
   }
+  @media(min-width:540px){
+  width: 19em;
+  }
+  @media(min-width:$md){
+    width: 12em;
+    margin-right: 4em;
 }
+@media(min-width:$lg){
+      width: 8.9em;
+}
+@media(min-width:$xl){
+  margin-right:8em;
+}
+  }
+
 #budget{
   width:8em;
+
 }
 #submit{
   margin-left:.6em;
@@ -328,4 +414,15 @@ p{
   font-family: $courier;
   font-weight: 600;
   width: 6em;
+  height: 1.8em;
+  @media(min-width:540px){
+    margin-left:7.6em;
+  }
+  @media(min-width:$md){
+margin-left: 19.6em
+}
+@media(min-width:$lg){
+  margin-left: 35.7em;
+
+}
 }

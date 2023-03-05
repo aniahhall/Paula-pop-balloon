@@ -51,7 +51,7 @@ header p {
   line-height: 1.8em;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   /* line 48, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   header p {
     padding: 2.5em 10em;
@@ -136,7 +136,7 @@ footer h3 {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   /* line 130, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   #holidays {
     padding-bottom: 12.9em;
@@ -151,7 +151,15 @@ footer h3 {
   width: 20%;
 }
 
-/* line 141, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 993px) {
+  /* line 135, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  .yellow {
+    top: 20.875em;
+    left: 11.5em;
+  }
+}
+
+/* line 145, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .red {
   position: absolute;
   top: 22.875em;
@@ -159,30 +167,38 @@ footer h3 {
   width: 20%;
 }
 
-/* line 153, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 993px) {
+  /* line 145, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  .red {
+    top: 24.875em;
+    left: 16.5em;
+  }
+}
+
+/* line 161, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .gallery {
   background-color: #58A4B0;
   padding-bottom: 6em;
   padding-top: 3em;
 }
 
-/* line 157, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 165, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .gallery h1 {
   color: white;
 }
 
 @media (max-width: 768px) {
-  /* line 163, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  /* line 171, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 166, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  /* line 174, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
 
-/* line 171, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 179, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
@@ -191,17 +207,17 @@ footer h3 {
 
 /* display 3 */
 @media (max-width: 768px) {
-  /* line 195, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  /* line 203, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   .carousel-inner .carousel-item > div {
     display: none;
   }
-  /* line 198, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  /* line 206, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
 }
 
-/* line 203, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 211, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
@@ -210,37 +226,37 @@ footer h3 {
 
 /* display 3 */
 @media (min-width: 768px) {
-  /* line 212, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  /* line 220, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   .carousel-inner .carousel-item-right.active,
   .carousel-inner .carousel-item-next {
     transform: translateX(33.333%);
   }
-  /* line 217, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  /* line 225, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   .carousel-inner .carousel-item-left.active,
   .carousel-inner .carousel-item-prev {
     transform: translateX(-33.333%);
   }
 }
 
-/* line 223, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 231, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left {
   transform: translateX(0);
 }
 
-/* line 230, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 238, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .about {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
   position: relative;
 }
 
-/* line 239, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 247, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .about h1 {
   color: #705D56;
 }
 
-/* line 242, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 250, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .about h2 {
   font-family: "Spartan", sans-serif;
   font-weight: 300;
@@ -249,20 +265,20 @@ footer h3 {
 }
 
 @media (max-width: 768px) {
-  /* line 242, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  /* line 250, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   .about h2 {
     text-align: center;
     margin-top: 1em;
   }
 }
 
-/* line 255, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 263, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .about p {
   font-family: "Spartan", sans-serif;
   color: #705D56;
 }
 
-/* line 262, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 270, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .blue {
   position: absolute;
   top: 18.875em;
@@ -270,7 +286,7 @@ footer h3 {
   width: 7%;
 }
 
-/* line 271, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 279, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .contact {
   background-color: #FFECE4;
   padding-bottom: 3em;
@@ -278,79 +294,225 @@ footer h3 {
   margin-bottom: 2em;
 }
 
-/* line 276, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 284, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 .contact h1 {
   color: #E31E24;
 }
 
-/* line 281, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 288, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+form {
+  padding-left: 8em !important;
+}
+
+/* line 290, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 form p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
-/* line 285, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 294, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 form input {
   border: .05em black solid;
 }
 
-/* line 289, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 298, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 label {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1em;
 }
 
-/* line 294, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 303, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #name {
   width: 15.55em;
 }
 
-@media (min-width: 390px) {
-  /* line 294, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 386px) {
+  /* line 303, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   #name {
     margin-right: 3em;
   }
 }
 
-/* line 301, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 540px) {
+  /* line 303, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #name {
+    width: 22.55em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 303, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #name {
+    width: 13.55em;
+    margin-right: 2em;
+  }
+}
+
+/* line 319, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #email {
   width: 15.8em;
 }
 
-/* line 304, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 540px) {
+  /* line 319, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #email {
+    width: 22.8em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 319, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #email {
+    width: 15.8em;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 319, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #email {
+    margin-right: 2em;
+    width: 13.8em;
+  }
+}
+
+/* line 333, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #number {
   width: 10.8em;
 }
 
-/* line 308, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 540px) {
+  /* line 333, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #number {
+    width: 17.8em;
+    margin-right: 3em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 333, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #number {
+    width: 8.8em;
+    margin-right: 2em;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 333, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #number {
+    width: 7.7em;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 333, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #number {
+    margin-right: 6em;
+  }
+}
+
+/* line 352, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #Occasion {
   width: 13.3em;
 }
 
-/* line 311, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 540px) {
+  /* line 352, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #Occasion {
+    width: 20.3em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 352, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #Occasion {
+    width: 13.3em;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 352, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #Occasion {
+    width: 11.3em;
+    margin-right: 2em;
+  }
+}
+
+/* line 367, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #balloons {
   width: 12em;
 }
 
-/* line 314, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 540px) {
+  /* line 367, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #balloons {
+    width: 18.9em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 367, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #balloons {
+    width: 9.9em;
+    margin-right: 2em;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 367, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #balloons {
+    width: 9.9em;
+    margin-right: 2em;
+  }
+}
+
+/* line 385, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #date {
   width: 12em;
 }
 
-@media (min-width: 412px) {
-  /* line 314, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 398px) {
+  /* line 385, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
   #date {
     margin-right: 4em;
   }
 }
 
-/* line 320, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+@media (min-width: 540px) {
+  /* line 385, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #date {
+    width: 19em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 385, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #date {
+    width: 12em;
+    margin-right: 4em;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 385, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #date {
+    width: 8.9em;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 385, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #date {
+    margin-right: 8em;
+  }
+}
+
+/* line 405, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #budget {
   width: 8em;
 }
 
-/* line 323, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+/* line 409, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
 #submit {
   margin-left: .6em;
   color: white;
@@ -359,6 +521,28 @@ label {
   font-family: "courier-std", monospace;
   font-weight: 600;
   width: 6em;
+  height: 1.8em;
+}
+
+@media (min-width: 540px) {
+  /* line 409, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #submit {
+    margin-left: 7.6em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 409, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #submit {
+    margin-left: 19.6em;
+  }
+}
+
+@media (min-width: 993px) {
+  /* line 409, ../Users/arh00/Creative Cloud Files/FREELANCE/Paula Carter/website/Paula-pop-balloon/css/sass/styles.scss */
+  #submit {
+    margin-left: 35.7em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

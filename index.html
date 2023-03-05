@@ -32,10 +32,10 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav ">
         <a class="nav-item nav-link" href="#">Home</a>
-        <a class="nav-item nav-link" href="#">Ballons</a>
-        <a class="nav-item nav-link" href="#">Gallery</a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
+        <a class="nav-item nav-link" href="#balloonpage">Ballons</a>
+        <a class="nav-item nav-link" href="#gallerypage">Gallery</a>
+        <a class="nav-item nav-link" href="#aboutpage">About</a>
+        <a class="nav-item nav-link" href="#contactpage">Contact</a>
       </div>
     </div>
   </nav>
@@ -50,7 +50,9 @@
   <main>
 
     <div class="container balloon">
-      <h1> Balloons</h1>
+      <a id="balloonpage">
+        <h1> Balloons</h1>
+      </a>
       <!-- <img src="img/Asset 19.svg" alt=""> -->
 
       <div class="row ">
@@ -150,7 +152,9 @@
 
 
       <div class="container  my-3 justify-content-center-sm">
-        <h1>Gallery</h1>
+        <a id="gallerypage">
+          <h1>Gallery</h1>
+        </a>
         <div class="row mx-auto my-auto ">
           <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
@@ -189,13 +193,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="col-md-4">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="img/ab.jpg">
-                  </div>
-                </div>
-              </div>
+
             </div>
             <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
@@ -214,7 +212,9 @@
 
     <div class=" about container">
 
-      <h1>About</h1>
+      <a id="aboutpage">
+        <h1>About</h1>
+      </a>
       <div class="row">
         <div class="col-md-6">
 
@@ -229,7 +229,7 @@
             called
             home for over 35 years! </p>
         </div>
-        <img src="img/blue.svg" alt="" class="blue d-none d-lg-block">
+        <img src="img/blue.svg" alt="" class="blue d-none d-xl-block">
       </div>
 
     </div>
@@ -238,13 +238,17 @@
 
 
 
-
+      <div class="container">
+        <a id="contactpage">
+          <h1>Contact</h1>
+        </a>
+      </div>
 
 
 
 
       <form class=" container" action="#" method="post">
-        <h1>Contact</h1>
+
         <p>Please complete this form and I will be in contact with you! </p>
         <label for=name> Name</label>
         <input id="name" type="text" name="name" value="" placeholder="Jane Doe">
